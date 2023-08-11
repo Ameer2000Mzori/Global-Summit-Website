@@ -214,3 +214,133 @@ body {
     display: flex;
   }
 }
+
+.header {
+  background-image: url(images/headerbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 850px;
+  width: auto;
+  padding-left: 20%;
+  justify-content: start;
+  align-items: center;
+  text-align: start;
+}
+
+.title-and-text {
+  position: relative;
+  top: 100px;
+}
+
+.header-title-1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+  color: #ec5242;
+}
+
+.header-title-2 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTePjMloJq5D9GVxJo3RGSTL19xJCsqBQ80JQ&usqp=CAU);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+  padding: 0;
+  margin: 0;
+  max-width: 1000px;
+  color: #ec5242;
+}
+
+.p-wrap {
+  font-family: "Lato", sans-serif;
+  display: block;
+  height: 75px;
+  padding: 15px;
+  width: 680px;
+  background-color: #faf8f8;
+  border-style: solid;
+  border-color: white;
+  color: #272a31;
+}
+
+.time-and-date {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  color: #272a31;
+}
+
+.place {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #272a31;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 750px;
+    padding-left: 1rem;
+  }
+
+  .title-and-text {
+    position: relative;
+    top: 200px;
+  }
+
+  .header-title-1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    color: #ec5242;
+  }
+
+  .header-title-2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTePjMloJq5D9GVxJo3RGSTL19xJCsqBQ80JQ&usqp=CAU);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    max-width: 1000px;
+    color: #ec5242;
+  }
+
+  .p-wrap {
+    font-family: "Lato", sans-serif;
+    display: block;
+    height: 100px;
+    width: 330px;
+    padding: 5px;
+    background-color: #faf8f8;
+    border-style: solid;
+    border-color: white;
+    color: #272a31;
+  }
+  .title-p {
+    font-family: "Lato", sans-serif;
+  }
+
+  .time-and-date {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #272a31;
+  }
+
+  .place {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #272a31;
+    font-size: 13px;
+  }
+}
