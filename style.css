@@ -326,6 +326,7 @@ body {
     border-color: white;
     color: #272a31;
   }
+
   .title-p {
     font-family: "Lato", sans-serif;
   }
@@ -346,7 +347,6 @@ body {
 }
 
 .program {
-  display: block;
   height: 600px;
   padding: 5% 5%;
   background-color: #272a31;
@@ -369,7 +369,6 @@ body {
 .program-hr {
   width: 5%;
   position: relative;
-
   border-style: solid;
   border-color: #ec5242;
   margin-top: 20px;
@@ -410,7 +409,7 @@ body {
 }
 
 .card-p {
-  color: #ffffff;
+  color: #fff;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   margin-top: 2rem;
@@ -422,7 +421,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   text-decoration: underline;
-  color: #ffffff;
+  color: #fff;
   width: 360px;
   position: center;
 }
