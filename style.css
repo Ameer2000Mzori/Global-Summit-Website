@@ -709,3 +709,64 @@ body {
     height: 1100px;
   }
 }
+
+.partner-wrap {
+  height: 120px;
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #272a31;
+}
+
+.partner-h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #d8d9db94;
+}
+
+.partner-hr {
+  width: 5%;
+  border-style: solid;
+  color: #ec5242;
+  border-top: none;
+}
+
+.partner-img-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.partner-img {
+  height: 100px;
+}
+
+#partner-fb-img {
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .partner-wrap {
+    height: 250px;
+    padding: 2% 2%;
+    text-align: center;
+    background-color: #272a31;
+  }
+
+  .partner-img-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .partner-img {
+    height: 55px;
+    margin: 5px;
+  }
+
+  #partner-fb-img {
+    height: 15px;
+  }
+}
