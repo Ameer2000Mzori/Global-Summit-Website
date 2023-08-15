@@ -452,3 +452,190 @@ body {
     align-items: center;
   }
 }
+
+.speakers-container {
+  height: 1000px;
+  display: block;
+  overflow: hidden;
+}
+
+.title-hr-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.speakers-title {
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  font-weight: 700;
+}
+
+.speaker-top-hr {
+  border-style: solid;
+  border-color: #ec5242;
+  width: 5%;
+}
+
+.speakers-wrap {
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+  align-items: center;
+  padding-left: 350px;
+  padding-right: 350px;
+  margin-top: 2rem;
+}
+
+.speaker {
+  display: flex;
+  padding: 5px;
+  margin: 0;
+}
+
+.imgs-wrap {
+  position: relative;
+}
+
+.speaker-background {
+  height: 100px;
+  margin-right: 5rem;
+}
+
+.speaker-profile {
+  position: absolute;
+  height: 165px;
+  left: 1.5rem;
+  top: 1.5rem;
+}
+
+.speaker-name {
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  font-weight: 700;
+}
+
+.speaker-p {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  color: #ec5242;
+}
+
+.spaker-hr {
+  border-style: solid;
+  color: #d1d1d1;
+  width: 30px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.speaker-bottom-p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #272a31;
+  max-width: 50ch;
+}
+
+.see-more-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+
+.speaker-more-btn {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .speakers-container {
+    height: 430px;
+  }
+
+  .speakers-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 2rem;
+  }
+
+  .speaker-more-btn {
+    position: center;
+    display: block;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #d1d1d1;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #272a31;
+    width: 90%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+  }
+
+  .speaker-more-btn:active {
+    background-color: #272a31;
+    color: white;
+  }
+
+  .speaker-background {
+    height: 55px;
+    margin-right: 5rem;
+  }
+
+  .speaker-profile {
+    position: absolute;
+    height: 115px;
+    left: 0.5rem;
+    top: 1rem;
+  }
+
+  .speaker-name-text {
+    padding: 0;
+    margin: 0;
+  }
+
+  .speaker-name {
+    font-family: "Lato", sans-serif;
+    color: #272a31;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .speaker-bottom-p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #272a31;
+    max-width: 175ch;
+    font-size: 13px;
+  }
+
+  .speaker-p {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    max-width: 175ch;
+    color: #ec5242;
+    font-size: 13px;
+  }
+
+  .imgs-wrap {
+    position: relative;
+    width: 40%;
+  }
+
+  .speakers-container.active {
+    height: 1100px;
+  }
+}
