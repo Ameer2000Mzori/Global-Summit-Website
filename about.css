@@ -456,7 +456,7 @@ body {
 }
 
 .commons-img-2 {
-  background-image: url(/images/download.jpg);
+  background-image: url(images/download.jpg);
   background-repeat: no-repeat;
   position: relative;
 }
@@ -517,13 +517,13 @@ body {
   }
 
   .commons-img-1 {
-    background-image: url(/images/download.jpg);
+    background-image: url(images/download.jpg);
     background-repeat: no-repeat;
     position: relative;
   }
 
   .commons-img-2 {
-    background-image: url(/images/download.jpg);
+    background-image: url(images/download.jpg);
     background-repeat: no-repeat;
     position: relative;
     right: 12px;
