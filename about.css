@@ -447,7 +447,7 @@ body {
 }
 
 .commons-img-1 {
-  background-image: url(/images/download.jpg);
+  background-image: url(images/download.jpg);
   height: 150px;
   width: 320px;
   background-repeat: no-repeat;
