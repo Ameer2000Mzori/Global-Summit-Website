@@ -16,9 +16,14 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Global-Summit-Website <a name="about-project"></a>
+# 📖 About This Project <a name="about-project"></a>
 
 > Global-Summit-Website is a website created with HTML, CSS, and JavaScript. The resources were provided by Microverse School, and our goal was to mimic a real-world website. Please check out the live demo for a closer look.
+
+# Sample Of Website <a name="Sample-Of-Website"></a>
+
+![alt text](./sample/1.png)
+![alt text](./sample/2.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -27,10 +32,10 @@
 <details>
   <summary>Client</summary>
   <ul>
-        <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
-        <li><a href="https://nl.wikipedia.org/wiki/JavaScript">Javascript</a></li>
-    
+  <li><a href="https://en.wikipedia.org/wiki/HTML">Html</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/CSS">Css</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/JavaScript">Javascript</a></li>
+  <li><a href="https://stylelint.io/">Html/CSS Linters</a></li>
   </ul>
 </details>
 
@@ -38,8 +43,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[multi-page responsive website]**
-- **[flex & grid]**
+- **[Responsive Website]**
+- **[Flex & Grid]**
+- **[CSS ]**
+- **[Linters ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,8 +92,6 @@ If you like this project, don't hesitate to give it a star 😊.
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse team for the resources.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
