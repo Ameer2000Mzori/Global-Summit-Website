@@ -16,9 +16,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My Portafolio <a name="about-project"></a>
+# 📖 Global-Summit-Website <a name="about-project"></a>
 
-> This is my website portfolio, made with HTML, CSS, and JavaScript. and it's a multi-page responsive website. it's a whole website made for desktop and mobile versions.
+> Global-Summit-Website is a website created with HTML, CSS, and JavaScript. The resources were provided by Microverse School, and our goal was to mimic a real-world website. Please check out the live demo for a closer look.
 
 ## 🛠 Built With <a name="built-with"></a>
 
